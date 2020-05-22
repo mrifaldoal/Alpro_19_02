@@ -4,7 +4,7 @@ public class MergeSort {
   
 
     // Data Array yang akan diurutkan
-    private int[] data = { 82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3 };
+    private int[] data = {1,3,3,8,5,3,6};
 
     // Method Print
     private void printData() {

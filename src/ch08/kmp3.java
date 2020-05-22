@@ -1,11 +1,10 @@
-  import java.io.BufferedReader;
+package ch08;
+
+import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
  
 public class kmp3 {
-  
- 
-
     
     private int[] failure;
    
@@ -69,4 +68,3 @@ public class kmp3 {
         kmp3 KMP = new kmp3(text, pattern);        
     }
 }
-

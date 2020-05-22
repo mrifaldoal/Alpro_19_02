@@ -1,5 +1,4 @@
-package ch06;
-
+package ch08;
 
 public class bmss2{ 
       

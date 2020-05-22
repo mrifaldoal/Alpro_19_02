@@ -1,5 +1,4 @@
 package ch07;
-
 public class coctailshakersort {
  
     void cocktailSort(int a[]) 
@@ -51,7 +50,7 @@ public class coctailshakersort {
   
     public static void main(String[] args) 
     { 
-        coctail ob = new coctail(); 
+       coctailshakersort ob = new coctailshakersort(); 
         int a[] = { 82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3 }; 
         ob.cocktailSort(a); 
         System.out.println("coctail shaker shord"); 

@@ -1,5 +1,3 @@
-package ch09;
-
 import java.util.Scanner;
 
 public class aksprimalitytest {

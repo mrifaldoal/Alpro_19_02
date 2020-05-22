@@ -1,34 +1,28 @@
-package ch05;
-
+package ch06;
 
 public class r10c {
-  
 
-  public static void main(String[] args) {
-       int []angka = {82, 12, 41, 38, 19, 26, 9, 48, 20, 55, 8, 32, 3};
-        System.out.println("algoritma selection short dari array diatas adalah =");
-        for (int  i = 0;  i < angka.length-1;  i++) {
-            int max = i;
-            for (int j = i; j < angka.length; j++) {
-                if(angka[j] < angka[max]){
-                    max = j;
+    public static void main(String[] args) {
+        int[] angka = {82,12,41,38,19,26,9,48,20,55,8,32,3};
+        System.out.println("Urutan Array menurut Selection sort: ");
+
+        for (int i = 0; i < angka.length; i++) {
+            int a = i;
+
+            for (int b = i; b < angka.length; b++){
+                if(angka[b] < angka[a]){
+                    a = b;
                 }
-                 
             }
-            
-                    int temp = angka[i];
-                    angka[i]=angka [max];
-                    angka[max]=temp;
-                    
-                }
-                for(int i = 0; i<angka.length; i++){
-            
-            System.out.print( angka[i] +" ");
-            }
-             
+            int c = angka[i];
+            angka[i] = angka[a];
+            angka[a] = c;
         }
-       
+        for (int i = 0; i < angka.length; i++) {
+            System.out.print(angka[i] + ",");
+
         }
 
-    
+    }
 
+}
